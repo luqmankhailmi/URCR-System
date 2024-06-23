@@ -1,0 +1,133 @@
+body {
+	background-color: lightgrey;
+	margin: 0;
+}
+
+/* MAIN NAVIGATION BAR */
+
+#navbar {
+	height: 80px;
+	background-color: white;
+	display: flex;
+}
+
+#logo {
+	width: 70px;
+	margin: 5px 0 5px 5px;
+}
+
+#title {
+	margin: auto 0 auto 0;
+	font-family: arial;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#menu {
+	display: flex;
+	text-align: right;
+	position: absolute;
+	top: 28px;
+	right: 10px;
+	margin: auto 0 auto 0;
+}
+
+.menu-item {
+	margin: 0 15px 0 0;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.menu-link {
+	text-decoration: none;
+	color: black;
+}
+
+.menu-link:hover {
+	color: #ac5180;
+}
+
+#login {
+	text-decoration: none;
+	background-color: #ac5180;
+	color: white;
+	padding: 10px;
+}
+
+#login:hover {
+	background-color: lightgrey;
+	color: #ac5180;
+	transition: 0.1s;
+}
+
+/* CLUB CONTAINER */
+
+#club-container {
+	background-color: #ac5180;
+	height: 480px;
+	text-align: center;
+	width: 1000px;
+	margin: 30px auto 0 auto;
+}
+
+#club-header {
+	font-family: arial;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+}
+
+#club-pfp {
+	width: 160px;
+	height: 160px;
+	border-radius: 100px;
+	border: 5px solid black;
+	margin: 40px 0 0 0;
+}
+
+#club-button {
+	display: flex;
+	justify-content: center;
+}
+
+.club-button-items {
+	display: block;
+	width: 250px;
+	height: 50px;
+	margin: 0 5px 0 5px;
+	font-size: 20px;
+	background-color: white;
+	cursor: pointer;
+}
+
+/* CLUB ABOUT */
+
+#club-about {
+	width: 1000px;
+
+	background-color: white;
+	padding-top: 20px;
+	margin: 0 auto 40px auto;
+}
+
+.club-title {
+	margin: 10px auto 10px auto;
+	width: 500px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 30px;
+	background-color: #ac5180;
+	line-height: 0;
+	color: white;
+}
+
+.club-desc {
+	margin: 0 100px 0 100px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+}

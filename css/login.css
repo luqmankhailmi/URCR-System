@@ -1,0 +1,94 @@
+body {
+	background-color: lightgrey;
+	margin: 0;
+}
+
+#login-container {
+	background-color: white;
+	width: 600px;
+	height: 550px;
+	margin: 80px auto 0 auto;
+	border-radius: 10px 10px 10px 10px;
+	font-family: arial;
+}
+
+#login-title {
+	text-align: center;
+	color: #ac5180;
+	font-family: arial;
+	font-size: 45px;
+	padding: 10px 0 0 0;
+}
+
+#title-container {
+	width: 100%;
+	height: 100px;
+	background-color: #ac5180;
+	color: white;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+
+#title {
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+
+#form-container {
+	width: 79%;
+	padding: 0 50px 0 50px;
+}
+
+.input-bar {
+	width: 98%;
+	height: 28px;
+	padding: 0 0 0 5px;
+}
+
+#login-button {
+	width: 100%;
+	height: 33px;
+	margin: 20px 0 0 0;
+	background-color: #ac5180;
+	color: white;
+	border: none;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+#register-button {
+	width: 79%;
+	height: 33px;
+	margin: 0 50px 0 50px;
+	color: #ac5180;
+	background-color: white;
+	border: 1px solid #ac5180;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+#or {
+	text-align: center;
+	font-family: arial;
+}
+
+#back {
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+
+a:link,
+a:visited {
+	color: black;
+}
+
+a {
+	color: black;
+}
+
+.login-items {
+	margin-block-end: 5px;
+}

@@ -1,0 +1,389 @@
+body {
+ background-color: lightgrey;
+ margin: 0;
+}
+
+#navbar {
+ width: 100%;
+ height: 80px;
+ background-color: white;
+ position: fixed;
+ top: 0;
+ display: flex;
+ overflow: hidden;
+ z-index: 1;
+ border-bottom: 3px solid gray;
+}
+
+#logo {
+ width: 70px;
+ margin: 5px 0 5px 5px;
+}
+
+#title {
+ margin: auto 0 auto 0;
+ font-family: arial;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+#menu {
+ display: flex;
+ text-align: right;
+ position: absolute;
+ top: 28px;
+ right: 10px;
+ margin: auto 0 auto 0;
+}
+
+.menu-item {
+ margin: 0 15px 0 0;
+ font-size: 20px;
+ font-family: arial;
+}
+
+.menu-link {
+ text-decoration: none;
+ color: black;
+}
+
+.menu-link:hover {
+ color: #ac5180;
+}
+
+#login {
+ text-decoration: none;
+ background-color: #ac5180;
+ color: white;
+ padding: 10px;
+}
+
+#login:hover {
+ background-color: lightgrey;
+ color: #ac5180;
+ transition: 0.1s;
+}
+
+/* CONTENT CONTAINER */
+
+#content-container {
+ display: grid;
+ margin-top: 80px;
+ grid-template-columns: 20% 80%;
+}
+
+/* -CONTENT NAVIGATION */
+
+#content-nav {
+ height: 100vh;
+ width: 380px;
+ display: block;
+ position: fixed;
+ background-color: white;
+}
+
+.content-nav-button {
+ height: 40px;
+ margin: 10px 0 5px 10px;
+ width: 350px;
+ font-size: 20px;
+ background-color: #ac5180;
+ color: white;
+ font-weight: bold;
+ border: none;
+ border-radius: 5px;
+ outline: 1px solid #ac5180;
+ cursor: pointer;
+}
+
+/* .content-nav-button:hover {
+ background-color: white;
+ color: #ac5180;
+ outline: 1px solid #ac5180;
+ transition: 0.2s;
+} */
+
+#Add,
+#Edit {
+ background-color: #0d6efd;
+ outline: 1px solid #0d6efd;
+ color: white;
+}
+
+#Add:hover,
+#Edit:hover {
+ background-color: white;
+ color: #0d6efd;
+ outline: 1px solid #0d6efd;
+ transition: 0.2s;
+}
+
+/* -CONTENT DATA */
+#content-data {
+ width: 70vw;
+ position: relative;
+ left: 400px;
+}
+
+/* OTHERS */
+
+#club-profile {
+ text-align: center;
+ width: 80%;
+ margin: auto;
+}
+
+#profile-upper {
+ background-color: #ac5180;
+ height: 400px;
+ margin-top: 50px;
+}
+
+#profile-lower {
+ background-color: white;
+ padding-top: 30px;
+ padding-bottom: 50px;
+ margin-bottom: 40px;
+}
+
+#club-header {
+ font-family: arial;
+ font-size: 50px;
+ font-weight: bold;
+ color: white;
+ text-align: center;
+ line-height: 0;
+ padding-bottom: 20px;
+}
+
+#club-pfp {
+ width: 160px;
+ height: 160px;
+ border-radius: 100px;
+ border: 5px solid black;
+ margin: 40px auto 0 auto;
+}
+
+
+#club-button {
+ display: flex;
+ justify-content: center;
+}
+
+.club-button-items {
+ display: block;
+ width: 200px;
+ margin: 0 5px 0 5px;
+ height: 50px;
+ font-size: 20px;
+ background-color: white;
+ cursor: pointer;
+}
+
+#tab-nav {
+ width: 600px;
+ margin: 40px auto 0 auto;
+ background-color: #ac5180;
+ border-radius: 30px;
+ text-align: center;
+}
+
+.tab-nav-button {
+ height: 40px;
+ margin: 5px 0 5px 0;
+ width: 180px;
+ font-size: 20px;
+ background-color: #ac5180;
+ color: white;
+ font-weight: bold;
+ text-align: center;
+ border: none;
+ border-radius: 20px;
+}
+
+#tab-content {
+ height: 800px;
+}
+
+#content {
+ padding: 0 0 50px 0;
+ margin: auto;
+}
+
+#announcement,
+#event,
+#club,
+#student {
+ width: 80%;
+ margin: auto;
+ display: block;
+ text-align: center;
+}
+
+.list-club-items,
+.list-stud-items,
+.list-annc-items,
+.list-event-items {
+ width: 700px;
+ background-color: white;
+ color: black;
+ border: none;
+ font-family: arial;
+ font-size: 18px;
+ cursor: context-menu;
+ text-align: left;
+ padding: 5px 0 5px 10px;
+ margin: 15px auto 15px auto;
+}
+
+.applicant-status {
+ margin-bottom: 15px;
+}
+
+.app-button {
+ height: 30px;
+ width: 100px;
+ margin: 0 20px 0 0px;
+ cursor: pointer;
+}
+
+.approve-button {
+ background-color: #28a745;
+ color: white;
+}
+
+.reject-button {
+ background-color: #dc3545;
+ color: white;
+}
+
+.view-button {
+ background-color: #6c757d;
+ color: white;
+}
+
+.contact-button {
+ background-color: #17a2b8;
+ color: white;
+}
+
+.delete-button {
+ background-color: #dc3545;
+ color: white;
+}
+
+.item-empty-text {
+ font-family: arial;
+ width: 400px;
+ height: 20px;
+ font-size: 20px;
+ border: 3px solid #ac5180;
+ padding: 10px;
+ margin: 100px auto 0 auto;
+}
+
+.club-about {
+ width: 600px;
+ margin: auto;
+ padding: 20px;
+ font-size: 18px;
+ font-family: arial;
+ background-color: #ac5180;
+ color: white;
+ text-align: center;
+}
+
+#contact-button {
+ display: block;
+ width: 250px;
+ height: 50px;
+ margin: 0 auto 0 auto;
+ font-size: 20px;
+ background-color: white;
+ cursor: pointer;
+}
+
+.mv-title {
+ text-align: center;
+ margin: 20px 0 0 0;
+ font-size: 30px;
+ font-family: arial;
+ font-weight: bold;
+}
+
+/* The Modal (background) */
+.modal {
+ display: none;
+ /* Hidden by default */
+ position: fixed;
+ /* Stay in place */
+ z-index: 1;
+ /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%;
+ /* Full width */
+ height: 100%;
+ /* Full height */
+ overflow: auto;
+ /* Enable scroll if needed */
+ background-color: rgb(0, 0, 0);
+ /* Fallback color */
+ background-color: rgba(0, 0, 0, 0.4);
+ /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+ background-color: #fefefe;
+ margin: 5% auto;
+ /* 15% from the top and centered */
+ padding: 20px;
+ border: 1px solid #888;
+ width: 600px;
+ /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 20px;
+ font-weight: bold;
+ font-family: arial;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+.modal-header {
+ font-family: arial;
+ font-size: 25px;
+ font-weight: bold;
+ text-align: center;
+}
+
+#form-add {
+ text-align: left;
+}
+
+#modal-add {
+ font-size: 20px;
+ font-family: arial;
+}
+
+form {
+ padding: 0 50px 0 50px;
+}
+
+.submit-button {
+ background-color: #ac5180;
+ color: white;
+ width: 200px;
+ height: 40px;
+ margin-top: 30px;
+}
