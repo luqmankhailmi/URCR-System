@@ -21,4 +21,9 @@ opens up more opportunities for them.
 2. Sample input/output
 
 ![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/1.png)
+![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/2.png)
+![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/6.png)
+![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/8.png)
+![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/10.png)
+![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/14.png)
 
