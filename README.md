@@ -18,12 +18,23 @@ gain valuable experience in project management, leadership, and high-level decis
 really provides UiTM Raub students with a platform that helps them enhance their potential and
 opens up more opportunities for them.
 
-2. Sample input/output
+2. Objectives
+
+- Help students discover clubs that exist on their campus.
+- Provide a centralized platform for club activities and management.
+- Increase student engagement with the community.
+
+3. Sample input/output
 
 ![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/1.png)
+
 ![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/2.png)
+
 ![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/6.png)
+
 ![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/8.png)
+
 ![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/10.png)
+
 ![alt text](https://github.com/luqmankhailmi/URCR-System/blob/main/Overview/14.png)
 
